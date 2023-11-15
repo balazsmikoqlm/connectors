@@ -6,10 +6,16 @@
 #
 #
 ## ------------------------------- Connectors -------------------------------
+#
+connectors:
+-
+  connector_id: "Bq9Q04sBu9vAWW9llCcL"
+  service_type: "postgresql"
+  api_key: "QjY5UTA0c0J1OXZBV1c5bHRpZDE6REttN05lVWpTTmVtVHpDYXgzcTkzZw=="
 
-
-
-
+elasticsearch:
+  host: "http://localhost:9200"
+  api_key: "QjY5UTA0c0J1OXZBV1c5bHRpZDE6REttN05lVWpTTmVtVHpDYXgzcTkzZw=="
 #
 ##  The list of connector clients/customized connectors configurations.
 ##    Each object in the list requires `connector_id` and `service_type`.
